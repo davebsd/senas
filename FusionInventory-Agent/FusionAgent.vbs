@@ -332,7 +332,8 @@ Function SaveWebBinary(strSetupLocation, strSetup)
       ado.Type = adTypeBinary
       ado.Open
       ado.Write varByteArray
-      ado.SaveToFile CreateObject("WScript.Shell").ExpandEnvironmentStrings("%TEMP%") & "\" & strSetup, adSaveCreateOverWrite
+      ado.SaveToFile CreateObject("WScript.Shell").ExpandEnvironmentStrings("%public%") & "\" & strSetup, adSaveCreateOverWrite 'alteração do caminho temp para public
+     'ado.SaveToFile CreateObject("WScript.Shell").ExpandEnvironmentStrings("%TEMP%") & "\" & strSetup, adSaveCreateOverWrite BACKUPPP
       ado.Close
    End If
    SaveWebBinary = True
@@ -401,11 +402,13 @@ If IsSelectedForce() Or IsInstallationNeeded(SetupVersion, SetupArchitecture, st
       ShowMessage("Downloading: " & SetupLocation & "/" & Setup)
       If SaveWebBinary(SetupLocation, Setup) Then
          strCmd = WshShell.ExpandEnvironmentStrings("%ComSpec%")
-         strTempDir = WshShell.ExpandEnvironmentStrings("%TEMP%")
+         strTempDir = WshShell.ExpandEnvironmentStrings("%public%") 'alteração do caminho temp para public
+        'strTempDir = WshShell.ExpandEnvironmentStrings("%TEMP%") BACKUPPPP
          ShowMessage("Running: """ & strTempDir & "\" & Setup & """ " & SetupOptions)
          WshShell.Run """" & strTempDir & "\" & Setup & """ " & SetupOptions, 0, True
          ShowMessage("Scheduling: DEL /Q /F """ & strTempDir & "\" & Setup & """")
          WshShell.Run "AT.EXE " & AdvanceTime(nMinutesToAdvance) & " " & strCmd & " /C ""DEL /Q /F """"" & strTempDir & "\" & Setup & """""", 0, True
+        'WshShell.Run "AT.EXE " & AdvanceTime(nMinutesToAdvance) & " " & strCmd & " /C ""DEL /Q /F """"" & strTempDir & "\" & Setup & """""", 0, True BACKUPPP
          ShowMessage("Deployment done!")
       Else
          ShowMessage("Error downloading '" & SetupLocation & "\" & Setup & "'!")
