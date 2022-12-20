@@ -121,7 +121,7 @@ Force = "Yes"  'Editado para sim caso alguma maquina ja possua o programa
 '
 '    It's advisable to use Verbose = "Yes" with 'cscript //nologo ...'.
 '
-Verbose = "no"
+Verbose = "yes"
 
 '
 '
