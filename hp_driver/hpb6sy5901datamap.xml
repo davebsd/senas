@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\src\DataModel\DataMap.xsd">
+  <!--Version 3.21 -->
+  <XMLDataMap Protocol="LEDM">
+    <StaticDataItem Name="Protocol">LEDM</StaticDataItem>
+    <DataItem Prefix="mhdyn" Name="Tray3_Installed" URI="ledm:hpLedmMediaHandlingDyn" XPath="//mhdyn:MediaHandlingDyn/mhdyn:InputTray[2]/dd:InputBin" Transient="false" LifeSpan="300">
+      <Conversion Contains="Tray3" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="mhdyn" Name="Tray4_Installed" URI="ledm:hpLedmMediaHandlingDyn" XPath="//mhdyn:MediaHandlingDyn/mhdyn:InputTray[3]/dd:InputBin" Transient="false" LifeSpan="300">
+      <Conversion Contains="Tray4" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="mhdyn" Name="Tray5_Installed" URI="ledm:hpLedmMediaHandlingDyn" XPath="//mhdyn:MediaHandlingDyn/mhdyn:InputTray[4]/dd:InputBin" Transient="false" LifeSpan="300">
+      <Conversion Contains="Tray5" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="prdcfgdyn" Name="DuplexUnit_Installed" URI="ledm:hpLedmProductConfigDyn" XPath="//dd:DuplexUnit" Transient="false" LifeSpan="300">
+      <Conversion Contains="Installed" Value="Installed" />
+      <Conversion Contains="NotInstalled" Value="NotInstalled" />
+    </DataItem>
+  </XMLDataMap>
+  <XMLDataMap Protocol="WS">
+    <StaticDataItem Name="Protocol">WS</StaticDataItem>
+    <DataItem Prefix="PrinterDescription" Name="PrintContractVersionMajor0_Installed" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//hpprt:PCVersion/hpprt:Major">
+      <Conversion Contains="0" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="PrinterDescription" Name="PrintContractVersionMinor6_Installed" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//hpprt:PCVersion/hpprt:Minor">
+      <Conversion Contains="6" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="PrinterConfiguration" Name="DuplexUnit_Installed" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//wprt:DuplexerInstalled">
+      <Conversion Contains="true" Value="Installed" />
+      <Conversion Contains="false" Value="NotInstalled" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="PrinterConfiguration" Name="DeviceDefaultDuplexStandard" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//hpprt:OemPrinterConfiguration/hpprt:DefaultDuplexStandard"></DataItem>
+    <DataItem Prefix="PrinterConfiguration" Name="Tray3_Installed" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//wprt:InputBinEntry[@Name='Tray 3' or @Name='Tray3']/@Name">
+      <Conversion Contains="Tray 3" Value="Installed" />
+      <Conversion Contains="Tray3" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="PrinterConfiguration" Name="Tray4_Installed" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//wprt:InputBinEntry[@Name='Tray 4' or @Name='Tray4']/@Name">
+      <Conversion Contains="Tray 4" Value="Installed" />
+      <Conversion Contains="Tray4" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="PrinterConfiguration" Name="Tray5_Installed" URI="urn:hp:imaging:con:service:device:DeviceService" XPath="//wprt:InputBinEntry[@Name='Tray 5' or @Name='Tray5']/@Name">
+      <Conversion Contains="Tray 5" Value="Installed" />
+      <Conversion Contains="Tray5" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+  </XMLDataMap>
+  <OIDDataMap>
+    <StaticDataItem Name="Protocol">OID</StaticDataItem>
+    <DataItem Name="Tray3_Installed" OID="1.3.6.1.2.1.43.8.2.1.13.1.3">
+      <Conversion Contains="Tray 3" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+    <DataItem Name="Tray4_Installed" OID="1.3.6.1.2.1.43.8.2.1.13.1.5">
+      <Conversion Contains="Tray 4" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+    <DataItem Name="Tray5_Installed" OID="1.3.6.1.2.1.43.8.2.1.13.1.6">
+      <Conversion Contains="Tray 5" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+    <NextDataItem Prefix="cfg" Name="HolePunch_Installed" OID="1.3.6.1.4.1.11.2.3.9.4.2.1.1.4.5.2.5" Count="3" />
+    <DataItem GroupID="1.1.1.1.1.1.1.2" Name="DuplexUnit_Installed" OID="1.3.6.1.2.1.43.13.4.1.9.1.2">
+      <Conversion Contains="4" Value="Installed" />
+      <Conversion Contains="3" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="DeviceDefaultDuplexStandard" OID="1.3.6.1.4.1.11.2.3.9.4.2.1.4.1.1.43.0">
+      <Conversion Contains="2" Value="true" />
+      <Conversion Contains="1" Value="false" />
+      <Conversion Contains="default" Value="false" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="PrintContractVersionMajor0_Installed" OID="1.3.6.1.4.1.11.2.3.9.4.2.1.4.1.1.41.0">
+      <Conversion Contains="0" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="PrintContractVersionMinor6_Installed" OID="1.3.6.1.4.1.11.2.3.9.4.2.1.4.1.1.42.0">
+      <Conversion Contains="6" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+  </OIDDataMap>
+  <IPPDataMap>
+    <StaticDataItem Name="Protocol">IPP</StaticDataItem>
+    <DataItem Name="Tray3_Installed" AttributeID="printer-input-tray" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="Tray 3" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Name="Tray4_Installed" AttributeID="printer-input-tray" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="Tray 4" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Name="Tray5_Installed" AttributeID="printer-input-tray" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="Tray 5" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="DuplexUnit_Installed" AttributeID="sides-supported" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="two-sided-long-edge" Value="Installed" />
+      <Conversion Contains="two-sided-short-edge" Value="Installed" />
+      <Conversion Contains="default" Value="Not-Installed" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="DeviceDefaultDuplexStandard" AttributeID="hp-default-duplex-standard" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="1" Value="true" />
+      <Conversion Contains="0" Value="false" />
+      <Conversion Contains="default" Value="false" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="PrintContractVersionMajor0_Installed" AttributeID="hp-pc-version-major" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="0" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+    <DataItem Prefix="cfg" Name="PrintContractVersionMinor6_Installed" AttributeID="hp-pc-version-minor" Command="Get-Printer-Attributes" JobURI="NULL" Transient="false" LifeSpan="300">
+      <Conversion Contains="6" Value="Installed" />
+      <Conversion Contains="default" Value="NotInstalled" />
+    </DataItem>
+  </IPPDataMap>
+</DataMaps>

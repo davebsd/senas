@@ -1,0 +1,24 @@
+<!--
+Copyright Monotype Imaging
+
+   All rights reserved.
+
+Generate from: hpfad32a_x86PipelineConfig.xml
+On: 2018-11-2102:44:27
+
+Abstract:
+
+Monotype Imaging filter configuration file. This identifies the
+filters that comprise the filter pipeline and their order.
+    -->
+<Filters>
+  <Filter dll="hpb6sy5901_x86EasyColorPrefilter.dll" clsid="{21934A6D-EA30-480a-8DAD-C8045807F737}" name="Easy Color Pre Filter">
+    <Input guid="{b8cf8530-5562-47c4-ab67-b1f69ecf961e}" comment="IID_IXpsDocumentProvider" />
+    <Output guid="{65bb7f1b-371e-4571-8ac7-912f510c1a38}" comment="IID_IPrintWriteStream" />
+  </Filter>
+  <Filter dll="hpb6sy5901_x86xps.dll" clsid="{3821E518-33AF-4d17-92B3-28EB410D46B6}" name="Monotype XPS.PCL6 Filter">
+    <Input guid="{4d47a67c-66cc-4430-850e-daf466fe5bc4}" comment="IID_IPrintReadStream" />
+    <Output guid="{65bb7f1b-371e-4571-8ac7-912f510c1a38}" comment="IID_IPrintWriteStream" />
+  </Filter>
+  <FilterServiceProvider dll="hpb6sy5901_x86hybrasto.dll" />
+</Filters>

@@ -1,0 +1,108 @@
+[Version]
+Signature="$Windows NT$"
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+Provider=%OEM%
+DriverVer=11/27/2018,8.00.1329.5901
+CatalogFile=hpfacc2a_x64.cat
+[Manufacturer]
+%OEM%=OEM,NTamd64
+[OEM.NTamd64]
+%PRINTER2%=INSTALL_SECTION2,USBPRINT\Hewlett-PackardHP_La3C1A
+%PRINTER2%=INSTALL_SECTION2,WSDPRINT\Hewlett-PackardHP_La3C1A
+%PRINTER2%=INSTALL_SECTION2,Hewlett-PackardHP_La3c1a
+%PRINTER2%=INSTALL_SECTION2,WSDPRINT\Hewlett-PackardHP_La3c1a
+%PRINTER2%=INSTALL_SECTION2,USBPRINT\Hewlett-PackardHP_La3c1a
+%PRINTER2%=INSTALL_SECTION2,USBPRINT\Hewlett-PackardHP_La0A80
+%PRINTER2%=INSTALL_SECTION2,WSDPRINT\Hewlett-PackardHP_La0A80
+%PRINTER2%=INSTALL_SECTION2,Hewlett-PackardHP_La0a80
+%PRINTER2%=INSTALL_SECTION2,WSDPRINT\Hewlett-PackardHP_La0a80
+%PRINTER2%=INSTALL_SECTION2,USBPRINT\Hewlett-PackardHP_La0a80
+%PRINTER2%=INSTALL_SECTION2,MF\LaserJet_MFP_E52645&WSD&IP_PRINT
+%PRINTER2%=INSTALL_SECTION2,MF\LaserJet_Flow_MFP_E52645&WSD&IP_PRINT
+[INSTALL_SECTION2]
+CopyFiles=FILES_PRINT2,COMMON_FILES_DRIVER_COPY,MSCORE_COPY,COINST_FILES
+DriverFile=mxdwdrv.dll
+ConfigFile=hpb6sy5901_x64gui.dll
+DataFile=hpfad32a_x64Cfg.xml
+FeatureScore=0x20
+CopyINF=HPRestStub.inf
+[FILES_PRINT2]
+hpfad32a_x64PipelineConfig.xml
+hpfad32a_x64Cfg.xml
+hpfad32a_x64.ini
+[COMMON_FILES_DRIVER_COPY]
+hpb6sy5901_x64xps.dll
+hpb6sy5901_x64hybrasto.dll
+hpb6sy5901_x64gui.dll
+hpb6sy5901_x64enus.dll
+hpb6sy5901_x64dlg.dll
+hpb6sy5901_x64help.cab
+hpb6sy5901datamap.xml
+hpb6sy5901x64_buio.dll
+hpb6sy5901x64_buiodm.dll
+hpb6sy5901x64_coins.dll
+hpb6sy5901_x64hpfime53.dll
+hpb6sy5901_x64EasyColorPrefilter.dll
+hpb6sy5901_x64PdsmqConnector.exe
+hpb6sy5901_x64PdsmqConnector.PdsmqConfig.xml
+hpb6sy5901_x64ewdm.xml
+[MSCORE_COPY]
+mxdwdrv.dll,mxdwdrv_x64.dll,COPYFLG_NOSKIP
+XPSSVCS.dll,XPSSVCS_x64.dll,COPYFLG_NOSKIP
+[SourceDisksFiles]
+hpfad32a_x64PipelineConfig.xml=0
+hpfad32a_x64Cfg.xml=0
+hpfad32a_x64.ini=0
+hpb6sy5901_x64xps.dll=0
+hpb6sy5901_x64hybrasto.dll=0
+hpb6sy5901_x64gui.dll=0
+hpb6sy5901_x64enus.dll=0
+hpb6sy5901_x64dlg.dll=0
+hpb6sy5901_x64help.cab=0
+hpb6sy5901datamap.xml=0
+hpb6sy5901x64_buio.dll=0
+hpb6sy5901x64_buiodm.dll=0
+hpb6sy5901x64_coins.dll=0
+hpb6sy5901_x64hpfime53.dll=0
+hpb6sy5901_x64EasyColorPrefilter.dll=0
+hpb6sy5901_x64PdsmqConnector.exe=0
+hpb6sy5901_x64PdsmqConnector.PdsmqConfig.xml=0
+hpb6sy5901_x64ewdm.xml=0
+mxdwdrv_x64.dll=0
+XPSSVCS_x64.DLL=0
+hpinkcoid32a.dll=102
+hpinkinsd32a.exe=102
+[SourceDisksNames]
+0=%DISK%,,,.
+102=%DISK%,,,\amd64
+[PrinterPackageInstallation.amd64]
+PackageAware=TRUE
+[DestinationDirs]
+DefaultDestDir=66000
+COINST_FILES=11             ; Copy CoInstaller files to system32
+[Strings]
+OEM="hp"
+PRINTER1="HP LaserJet MFP M528 PCL 6 (V3)"
+PRINTER2="HP LaserJet MFP E52645 PCL 6 (V3)"
+DISK="HP LaserJet MFP E52645 PCL 6 (V3) Printer Drivers disk"
+[Strings.0411]
+OEM="hp"
+PRINTER1="HP LaserJet MFP M528 PCL 6 (V3)"
+PRINTER2="HP LaserJet MFP E52645 PCL 6 (V3)"
+DISK="HP LaserJet MFP E52645 PCL 6 (V3) Printer Drivers disk"
+[HP]
+[INSTALL_SECTION2.CoInstallers]
+AddReg=hp_CoInstaller_LJE52_addReg
+CopyFiles=COINST_FILES
+[INSTALL_SECTION2.Services]
+AddService=,0x2    ; no value for the service name
+[hp_CoInstaller_LJE52_addReg]
+HKR,,CoInstallers32,0x00010000,"hpinkcoid32a.dll,CoDeviceInstall"
+HKR,,SoftwareRegPath,,"Software\HP\InstalledProducts\{37E5062E-70A6-43EE-92F5-7882DBA5FE33}"
+HKR,,ModelName,,"HP LaserJet MFP E52645"
+[SourceInfo]
+SourceDirectory=%1%
+[COINST_FILES]
+hpinkcoid32a.dll
+hpinkinsd32a.exe
