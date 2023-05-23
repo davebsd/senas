@@ -1,0 +1,572 @@
+================================================================
+====                                                        ====
+====                       CONF600 Plus                     ====
+====                                                        ====
+====              Smar Equipamentos Industriais             ====
+====                                                        ====
+================================================================
+
+================================================================
+====                          History                       ====
+================================================================
+
+
+
+[ v3.04 - BUILD 211130 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 30/November/2021
+
+Description of the changes:
+---------------------------
+
+- changed build release only for installation to add the new help and manual files
+
+
+
+[ v3.04 - BUILD 171207 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 07/December/2017
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Removed the registration dialog.
+  - Issue changing link when in online mode and try to send to device.
+  - Fixed borne numbers when showing block graphic image.
+  - Fixed calibration column selection.
+  - Fixed some minor problems.
+
+
+
+[ v3.03 - BUILD 130611 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 11/June/2013
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problems with LOOP names from old versions.
+  - Some minor problems.
+
+
+
+[ v3.03 - BUILD 120808 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 08/Aug/2012
+
+Description of the changes:
+---------------------------
+
+OBS.: Was sent to PETROBRAS only.
+
+- Fixed:
+  - Some minor problems.
+
+
+
+[ v3.03 - BUILD 111215 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 15/December/2011
+
+Description of the changes:
+---------------------------
+
+OBS.: Was sent to UNIVALEN only.
+
+- Fixed:
+  - Some minor problems.
+
+- Enhancements:
+  - Help updated to open in the Windows Seven.
+
+
+
+[ v3.03 - BUILD 100726 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 26/July/2010
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Error with default values when windows regional options is
+    set up to using COMMA as decimal separator.
+
+- Enhancements:
+  - using WRITE THROUGH and no BUFFERING to speed up serial
+    communication.
+
+
+
+[ v3.03 - BUILD 100525 BETA ]===================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 25/May/2010
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - XToolsLib had Some things that could be causing some crashes.
+  - BUG with editx control when using XP Visual Style.
+  - BUG when checking config name with LOOPG name.
+
+OBS.: This was sent to SPIRAX Italy only.
+
+
+
+[ v3.03 - BUILD 100224 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 24/February/2010
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Loop names with spaces is not allowed.
+  - Bug on float conversion was causing errors when showing a
+    drawing of block image on dialog box.
+  - Crash when using the looking for a range of devices online.
+  - HELP file contents was linked with wrong HELP file name.
+  - Bug when editing texts on block parameter dialog.
+
+- Enhancements:
+
+
+
+[ v3.03 - BUILD 090128 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 28/January/2009
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem when Removing and after that Adding a new LINK using
+    editing block parameters.
+  - Problem when removing BREAK LINK, and the same output port is
+    linked to others block on the same input port.
+
+
+
+[ v3.03 - BUILD 080610 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 10/June/2008
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem when recreating the graphic page from uploaded
+    configuration and the block was linking to itself.
+  - Problem with online monitoring.
+  - Problem on looking for range of devices.
+
+- Enhancements:
+  - Added an indication on statusbar that shows the memory limits
+    to each LOOP.
+  - Now is possible to change the LINK attributes when editing
+    block parameters.
+  - Monitoring blocks on graphic page now is a little bit more fast.
+  - Added a visual indication when looking for range of devices.
+
+
+
+[ v3.02 - BUILD 080208 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 08/February/2008
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem when uploading and then checking with working dir.
+
+- Enhancements:
+
+
+
+[ v3.02 - BUILD 071212 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 12/December/2007
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem when entering or editing some data on list control.
+
+- Enhancements:
+
+
+
+[ v3.02 - BUILD 071128 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 28/November/2007
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Some controls in the communications settings dialog was not
+    changing OK button status.
+
+- Enhancements:
+
+
+
+[ v3.02 - BUILD 071026 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 26/October/2007
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Some redraw problems when working with links.
+  - When using BREAK/COMM links they are leaving some dirt point
+    at the top of screen paper.
+  - The bornes now shows the correctly number by controller type.
+
+- Enhancements:
+  - Some look and feel at the dialogs and some controls.
+  - Now the controller type can be selected at document info page.
+
+
+
+[ v3.01 - BUILD 060831 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 31/August/2006
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem to navigating on print preview.
+  - Some problems when creating a Break Link.
+  - Problem when using block tool and try a double-click on
+    BREAK/COMM link and crashing.
+
+- Enhancements:
+  - Blocking duplicated loop name.
+
+
+
+[ v3.01 - BUILD 050706 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 06/July/2005
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+
+- Enhancements:
+
+
+
+
+[ v3.01 - BETA BUILD 050622 ]===================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 22/June/2005
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem when trying to dragging the first block item from block list.
+  - The zoom to objects is more accurate.
+
+- Enhancements:
+
+
+
+
+[ v3.01 - BETA BUILD 050510 ]===================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 10/May/2005
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - ENET-710 communication problem.
+
+- Enhancements:
+
+
+
+
+[ v3.01 - BUILD 050427 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 27/Apr/2005
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Problem when looking for an old CD600 device and was showing
+    CD600Plus in the Online dialog.
+  - Problem with Document Properties dialog that was not allowing
+    to entering the values correctly to Snap and Undo options.
+  - Problem with Calibration dialog, that was not accepting values.
+  - Problem when selecting Input/Output ports on graphic block.
+  - Problem when Upload and updating the graphic page the output
+    user tags was not updated.
+
+- Enhancements:
+
+
+
+
+[ v3.00 - BUILD 041129 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 29/Nov/2004
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Has fixed a problem when importing old configurations from
+    CONF600 (DOS).
+  - Has fixed a lot of problems related to UNDO/REDO.
+  - Fixed a problem on the ONLINE dialog when looking for a range
+    of devices.
+
+- Enhancements:
+  - Allow to create a drawing from discrete objects and save it as
+    emplate to be used on others configurations.
+  - Allow to change the size of BREAK and COMMUNICATION link
+    indicators by changing the size of text font.
+  - In the block dialog has a option to put a user TAG in the
+    block outputs.
+  - Added CUT/COPY/PASTE options to discrete objects.
+
+
+
+
+[ v2.30 - BUILD 040430 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 30/April/2004
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+
+- Enhancements:
+  - Added support to work with CDBUS/TCP over a Ethernet Network.
+    This allows the use of a multi-master architecture.
+  - Serial communication works significantly faster than in old
+    version Configurators.
+  - User can set the response timeout and the number of retries
+    in the Communication Settings Menu. For long communication
+    cables or noisy environment it is recommended to increase the
+    number of retries. 
+
+
+
+
+[ v2.25 - BUILD 040414 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 30/April/2004
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Sometime the application was closing, right after a
+    configuration upload.
+  - The color bar was instable. Use to disappear and return for
+    different actions.
+  - Formula to calculate the maximum allowed quantity of Function
+    Blocks per loop was corrected. Anyway, even in old versions,
+    the CD600/CD600Plus has a self verification procedure and had
+    never accepted over dimensioned configurations.
+  - Communication settings, the monitoring period was coming with
+    random number.
+  - During adding FB and changing a parameter then clicking on the
+    tab "Functions" was not showing "OUT OF RANGE MESSAGE".
+  - Do not allow to change parameters from BLOCK that is not
+    available.
+  - Now if the last COMM port is not available it tries the next
+    one automatically.
+  - Selection of broken and communication links was not working
+    properly.
+  - The printed pages was coming wrong when the loop was empty.
+  - Sometime the parameter was not updated during modifications
+    done while monitoring a Block.
+  - Print and Print Preview buttons are not released when getting
+    out of monitoring mode.
+
+
+- Enhancements:
+  - Improved features to work online:
+    - Loop can be individually downloaded.
+    - Any modification can be send to verify immediate results.
+    - Parameter modifications during Loop/Block Monitoring are faster.
+    - More freedom for doing changes.
+  - Better interaction between graphic and docked block list.	
+  - New upload button in the tool bar while in Online Mode.
+  - Right click on a empty area toggles the mouse pointer between
+    SELECT and BLOCK tool.
+  - Function Block dialog box keep pointing to the last selected
+    function.
+  - Edit parameters by double clicking in a Block using Link tool.
+  - User need download/upload a configuration to go to the Online
+    Mode.
+  - Ethernet communication.
+
+
+
+[ v2.20 - BUILD 040114 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 14/Jan/2004
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Allowed block monitor just only when online.
+  - Print and PrintPreview buttons are not released when get out
+    monitoring mode.
+  - On PrintSelect dialog the button to print loops is just released
+    when has some graphic to print.
+  - Monitoring a block and changing some values, the changes on the
+    block was not applyed.
+
+- Enhancements:
+  - Using threads to monitoring
+
+
+
+[ v2.20 - BUILD 031218 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 18/Dec/2003
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+
+- Enhancements:
+  - Now to allow monitoring the user have to download/upload a
+    configuration first.
+
+
+
+[ v2.10 - BUILD 030903 ]========================================
+
+Info:
+-----
+
+Author...: Vilson Balestero
+Date.....: 03/Sep/2003
+
+Description of the changes:
+---------------------------
+
+- Fixed:
+  - Fixed problem when rebuilding the graphic page blocks and have
+    links between loops.
+  - Fixed paper color setting of the graphic page area.
+
+- Enhancements:
+

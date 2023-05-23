@@ -1,0 +1,84 @@
+Smar Laboratories Corp. - Acordo de licença do software
+-------------------------------------------------------------------------------
+Tenha por favor cuidado ao ler este acordo de licença antes de usar o CONF600
+Plus mais o software. Usar este CONF600 Plus mais o software indica sua
+aceitação de termos deste acordo. Se você não concordar com os alguns itens dos
+termos, não use este produto e/ou "click" na tecla que mostra a não
+concordância com estes termos à instalação e aborte AGORA!
+
+Licença
+-------------------------------------------------------------------------------
+Os termos deste acordo de licença substituem todos os outros acordos de licença
+que acompanham o CONF600 Plus mais o programa do software ou quaisquer outros
+programas do software. É concedido uma licença para usar o CONF600 Plus mais o
+programa do software (o "SOFTWARE PRODUCT") para o uso pessoal ou em seu
+negócio ou profissão. A posse e o título do PRODUTO DE SOFTWARE remanescem com
+a Smar Laboratories Corp. Você não pode fazer cópias, reproduções, traduções ou
+modificações ao PRODUTO DE SOFTWARE, a não ser que você possa fazer uma única
+cópia do arquivo do PRODUTO DE SOFTWARE. A mesmos que a observação de copyright
+e marking do proprietário que aparecem no PRODUTO DE SOFTWARE original devem
+ser contidos na cópia do arquivo.
+
+As cópias do PRODUTO DE SOFTWARE e/ou de sua documentação não podem ser
+distribuídas a qualquer um sem autorização escrita de Smar Laboratories Corp.
+Você não pode desmontar, criar trabalhos do derivative, modificá-los, inverter
+o coordenador, adaptar, decompilar, ou traduzir o PRODUTO DE SOFTWARE. Você não
+pode adaptar, criar trabalhos do derivative, ou traduzir qualquer parte da
+documentação sem o consentimento previamente escrito de Smar Laboratories Corp.
+Você não pode alugar, transferir, atribuir, ou vender o PRODUTO DE SOFTWARE a
+nenhuma outra pessoa. Você não pode transferi-lo eletrônicamente de um
+computador a outro. É concedido a você um direito nonexclusive de usar o
+PRODUTO DE SOFTWARE em um computador em uma única locação.
+
+GARANTIA LIMITADA
+-------------------------------------------------------------------------------
+SMAR LABORATORIES CORP. NÃO É RESPONSÁVEL PELA INSTALAÇÃO, E USO DE OU OS
+RESULTADOS OBTIDOS DO PRODUTO E DA DOCUMENTAÇÃO DE SOFTWARE. A SMAR
+LABORATORIES CORP. NÃO GARANTE SEUS REQUERIMENTOS ENCONTRADOS COM COM AS
+FUNÇÕES DOS PRODUTOS DE SOFTWARE OU QUE A OPERAÇÃO DOS PRODUTOS  E DA
+DOCUMENTAÇÃO DO SOFTWARE SERÁ ERROR-FREE OU ININTERRUPTO, OU QUE AQUELES
+DEFEITOS SERÃO CORRIGIDOS.
+
+SMAR LABORATORIES CORP. USOU ESFORÇOS RAZOÁVEIS PARA MINIMIZAR ERROS OU
+DEFEITOS NO PRODUTO E NA DOCUMENTAÇÃO DE SOFTWARE. VOCÊ SUPÕE O RISCO DE ALGUNS
+E TODOS OS DANOS OU PERDA DO USO, OU A INABILIDADE  DE USAR O PRODUTO E A
+DOCUMENTAÇÃO DE SOFTWARE. O PRODUTO E A DOCUMENTAÇÃO DE SOFTWARE SÃO FORNECIDOS
+COMO É SEM GARANTIA DE QUALQUER TIPO, EXPRESSADO OU IMPLICADO, INCLUINDO MAS
+NÃO LIMITADO ÀS GARANTIAS IMPLICADAS DO MERCADO E DA APTIDÃO PARA UMA
+FINALIDADE PARTICULAR. SMAR LABORATORIES CORP. RECOMENDA FORTEMENTE QUE VOCÊ
+TESTE EXTENSIVAMENTE A CONFIGURAÇÃO GERADA POR ESTE PRODUTO DE SOFTWARE ANTES
+DE SEU USO EM UMA APLICAÇÃO REAL.
+
+ALGUNS ESTADOS NÃO PERMITEM A EXCLUSÃO DE GARANTIAS IMPLICADAS ASSIM QUE A
+EXCLUSÃO ACIMA NÃO PODE APLICAR-SE LHE. ESTA GARANTIA DÁ-LHE DIREITOS LEGAIS
+ESPECÍFICAS E VOCÊ PODE TAMBÉM TER OUTROS DIREITOS QUE VARIAM DE ESTADO À
+ESTADO.
+
+EM NENHUM EVENTO A SMAR LABORATORIES CORP. SERA RESPONSÁVEL A VOCÊ EM QUALQUEIS
+DANOS, INCLUINDO A PERDA DE LUCROS, PERDAS ECONOMICAS, OU OUTROS DANOS
+ACIDENTAIS OU CONSEQUÊNCIAIS QUE ACARRETARAM COM A FALTA DE OU O USO DE OU A
+INABILIDADE DE USAR TAIS PRODUTO DE SOFTWARE OU DA DOCUMENTAÇÃO DA SMAR
+LABORATORIES CORP. MESMO SE A SMAR LABORATORIES CORP. OU ALGUM REPRESENTANTE
+AUTORIZADO DA SMAR FOI RECOMENDADO DA POSSIBILIDADE DE TAIS DANOS, OU POR
+QUALQUER REIVINDICAÇÃO DE QUALQUER OUTRA PARTE.
+
+ALGUNS ESTADOS NÃO PERMITEM A LIMITAÇÃO OU A EXCLUSÃO DA  RESPONSABILIDADE PARA
+OS DANOS INCIDENTAIS OU CONSEQUÊNCIAIS ASSIM QUE AS LIMITAÇÕES OU A EXCLUSÃO
+ACIMA NÃO PODEM APLICAR-SE LHE.
+
+RESPONSABILIDADES EXCLUSIVAS DA LIMITAÇÃO E DOS DANOS
+-------------------------------------------------------------------------------
+TODA RESPONSABILIDADE E SEUS DANOS EXCLUSIVO CONTRA A SMAR LABORATORIES CORP.
+OU SEUS REPRESENTANTES AUTORIZADOS POR PERDAS OU DANOS CAUSADOS POR TODA A
+FALHA OU DEFEITO DO PRODUTO OU DA DOCUMENTAÇÃO DE SOFTWARE, NÃO OBSTANTE O
+FORMULÁRIO DE AÇÃO, SE NO CONTRATO, TORT INCLUINDO A NEGLIGÊNCIA,
+RESPONSABILIDADE ESTRITA OU DE OUTRA FORMA, SERÃO TROCADOS TODOS OS PRODUTO DE
+SOFTWARE. CONTATE SUA FONTE ORIGINAL DA COMPRA PARA RECEBER INSTRUÇÕES PARA
+OBTER A TROCA DO PRODUTO. ISTO SERÁ EXCLUSIVO DE TODOS OS DANOS RESTANTES DE
+ENCONTRO A SMAR LABORATORIES CORP. E SEU REPRESENTANTE AUTORIZADO, À EXCEÇÃO DE
+SUA CERTEZA EM REIVINDICAR OS DANOS PARA COM FERIMENTO CORPORAL A ALGUMA PESSOA.
+
+CONF600 Plus é mais uma marca registrada de Smar Laboratories Corp.
+Todas marcas registradas restantes são propriedade de seus proprietários respectivos.
+(c) 1999-2021 Smar Laboratories Corp. Todos os direitos reservados.
+
