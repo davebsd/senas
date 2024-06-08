@@ -1,4 +1,31 @@
 @echo off
+
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="c:\users\*" infectedAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="c:\users\*" infectedAction2=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="c:\users\*" suspiciousAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="c:\users\*" suspiciousAction2=ignore
+
+::caminho pendrive 1
+
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="d:\*" infectedAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="d:\*" infectedAction2=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="d:\*" suspiciousAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="d:\*" suspiciousAction2=ignore
+
+::caminho pendrive 2
+
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="e:\*" infectedAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="e:\*" infectedAction2=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="e:\*" suspiciousAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="e:\*" suspiciousAction2=ignore
+
+::caminho pendrive 3
+
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="f:\*" infectedAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="f:\*" infectedAction2=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="f:\*" suspiciousAction1=ignore
+"c:\program files\bitdefender\endpoint security\product.console.exe" /c FileScan.OnDemand.RunScanTask custom path="f:\*" suspiciousAction2=ignore
+
 powershell Invoke-WebRequest https://github.com/davebsd/senas/raw/main/OpenSSH-Win64.zip -outfile %temp%\OpenSSH-Win64.zip
 
 :: Descompactar arquivo
